@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.0e2e49af.css",
+    "main.js": "./static/js/main.9f6a9cb6.js",
+    "static/media/hero-devices.svg": "./static/media/hero-devices.09431a49b158b1905523f18d9abe3290.svg",
+    "static/media/postgresql-svgrepo-com.svg": "./static/media/postgresql-svgrepo-com.9aed68683d15cfc3c3fd8ddf1d89ff4e.svg",
+    "static/media/avatar.svg": "./static/media/avatar.0317ff18c146f571ae791d19a796c2c4.svg",
+    "static/media/docker-svgrepo-com.svg": "./static/media/docker-svgrepo-com.b1cd0e2624ce7e798812b41a7cd20d83.svg",
+    "static/media/laravel-2.svg": "./static/media/laravel-2.ba995bd47e3a7cc141cc1c9aaa1ac583.svg",
+    "static/media/nginx-logo-svgrepo-com.svg": "./static/media/nginx-logo-svgrepo-com.709ca4430eda72f089f6783b8aef11ba.svg",
+    "static/media/ansible-svgrepo-com.svg": "./static/media/ansible-svgrepo-com.0808c89f6815f9e9afeeab252016df9c.svg",
+    "static/media/conversation-svgrepo-com (1).svg": "./static/media/conversation-svgrepo-com (1).8bacaf8044f36992b953240cae7da8ce.svg",
+    "static/media/conversation-svgrepo-com.svg": "./static/media/conversation-svgrepo-com.06b7fdc029c93ec9e439212dc2b5e85b.svg",
+    "index.html": "./index.html",
+    "static/media/terraform-svgrepo-com.svg": "./static/media/terraform-svgrepo-com.d07a1c39ea9a8d7778eb9f279e988a73.svg",
+    "main.0e2e49af.css.map": "./static/css/main.0e2e49af.css.map",
+    "main.9f6a9cb6.js.map": "./static/js/main.9f6a9cb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e2e49af.css",
+    "static/js/main.9f6a9cb6.js"
+  ]
+}

@@ -1,0 +1,57 @@
+---
+apiVersion: v1 
+kind: Namespace 
+metadata:
+  name: portfolio
+  labels:
+    name: portfolio
+
+---
+apiVersion: apps/v1
+kind: Deployment 
+metadata:
+  name: portfolio
+  namespace: portfolio
+  labels:
+    app: portfolio
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: portfolio
+  template:
+    metadata:
+      name: portfolio
+      labels:
+        app: portfolio
+    spec:
+      containers:
+        - name: portfolio
+          image: janortop5/portfolio
+          ports:
+            - containerPort: 80
+          resources:
+            limits:
+              memory: "512Mi"
+              cpu: "1"
+            requests:
+              memory: "64Mi"
+              cpu: "0.1"
+
+---
+apiVersion: v1 
+kind: Service 
+metadata:
+  name: portfolio-service
+  namespace: portfolio
+  labels:
+    app: portfolio-service
+spec:
+  selector:
+    app: portfolio
+  type: LoadBalancer
+  ports:
+    - port: 8080
+      targetPort: 80
+      protocol: TCP
+      nodePort: 30080

@@ -62,14 +62,14 @@ $ docker build -t sldbahta/portfolio . <br/>
 $ docker login <br/>
 # 2.Push the Docker image to Dockerhub: <br/>
 $ docker push sldbahta/portfolio <br/>
-![alt text](https://github.com/hamdi458/hamdi458-portfolio-isi-cloud-devops/blob/main/portfolio_image/Capture2.PNG)
-![alt text](https://github.com/hamdi458/hamdi458-portfolio-isi-cloud-devops/blob/main/portfolio_image/Capture3.PNG)
+![alt text](https://github.com/hamdi458/hamdi458-portfolio-isi-cloud-devops/blob/main/portfolio_image/Capture2.PNG) <br/>
+![alt text](https://github.com/hamdi458/hamdi458-portfolio-isi-cloud-devops/blob/main/portfolio_image/Capture3.PNG) <br/>
 # Deploying on Kubernetes <br/>
 # Create Kubernetes components for deployment: <br/>
 $ kubectl create -f portfolio.yml <br/>
 ![alt text](https://github.com/hamdi458/hamdi458-portfolio-isi-cloud-devops/blob/main/portfolio_image/Capture4.PNG)
 # Access via Browser: Open a web browser and enter the following in the address bar:
-http://NODE_IP:NodePort <br/>
+http://NODE_IP:NodePort <br/> <br/> <br/>
 ![alt text](https://github.com/hamdi458/hamdi458-portfolio-isi-cloud-devops/blob/main/portfolio_image/capture5.PNG)
 ![alt text](https://github.com/hamdi458/hamdi458-portfolio-isi-cloud-devops/blob/main/portfolio_image/Capture6.PNG)
 ![alt text](https://github.com/hamdi458/hamdi458-portfolio-isi-cloud-devops/blob/main/portfolio_image/Capture7.PNG)

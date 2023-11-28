@@ -1,11 +1,11 @@
 # Project Name: hamdi458 Portfolio - ISI Cloud DevOps
 # Description
-This project contains the setup for a personal portfolio website using a Static Site Generator, Docker, and Kubernetes for deployment.
+This project contains the setup for a personal portfolio website using a Static Site Generator, Docker, and Kubernetes for deployment. \br
 
 # Requirements
-Vagrant
-Kubernetes
-Docker
+Vagrant <br/>
+Kubernetes <br/>
+Docker 
 # Setup Instructions
 Creating a Kubernetes-only Master Node
 Spin up a VM using Vagrant with the provided script kubernetes-master-setup.sh.

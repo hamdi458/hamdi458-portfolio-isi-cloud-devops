@@ -9,8 +9,6 @@ Docker
 # Setup Instructions
 Creating a Kubernetes-only Master Node
 Spin up a VM using Vagrant with the provided script kubernetes-master-setup.sh.
--------------------------------------------------------
-#!/bin/bash
 # Commands to set up Kubernetes master node
 $ echo 'install master kubernetes'
 $ sudo yum -y update
@@ -50,7 +48,6 @@ $ sed -i -r "s/10.5.0.0/10.244.0.0/g" calico.yaml
 $ kubectl apply -f calico.yaml
 $ kubectl get pods --all-namespaces
 ...
---------------------------------------------------------
 Follow the script to configure the master node and initialize Kubernetes.
 Ensure the necessary ports and configurations and make sure to make the address ip public are in place for Kubernetes.
 # Building Docker Image for Portfolio
@@ -59,7 +56,7 @@ $ git clone https://github.com/hamdi458/hamdi458-portfolio-isi-cloud-devops.git
 $ cd hamdi458-portfolio-isi-cloud-devops/portfolio_image/
 # Build the Docker image for the portfolio:
 $ docker build -t sldbahta/portfolio .
-https://github.com/hamdi458/hamdi458-portfolio-isi-cloud-devops/blob/main/portfolio_image/Capture.PNG
+![alt text](https://github.com/hamdi458/hamdi458-portfolio-isi-cloud-devops/blob/main/portfolio_image/Capture.PNG)
 # Dockerhub Integration
 # Log in to Dockerhub:
 $ docker login

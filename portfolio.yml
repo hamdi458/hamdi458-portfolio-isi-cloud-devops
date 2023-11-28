@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: portfolio
-          image: janortop5/portfolio
+          image: sldbahta/portfolio
           ports:
             - containerPort: 80
           resources:
